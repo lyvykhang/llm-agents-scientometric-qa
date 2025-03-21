@@ -1,0 +1,51 @@
+;question;source;id;form
+34;What are the papers written by Lih-Wee Chew?;dblp-quad;Q0059;FACT_BASED
+35;Which papers did the author Shuai Han write?;dblp-quad;Q0088;FACT_BASED
+36;What are the papers written by J. Villaneau?;dblp-quad;Q0068;FACT_BASED
+37;Which papers did the author Stefan Schreiber write?;dblp-quad;Q0017;FACT_BASED
+38;What are the papers written by the person Keat Keong Phang?;dblp-quad;Q0093;FACT_BASED
+39;Which publications did Ellen Riloff write?;dblp-quad;Q0032;FACT_BASED
+40;Which papers did the author Salwa K. Abd-El-Hafiz write?;dblp-quad;Q0057;FACT_BASED
+41;Which publications did Christian L. Müller write?;dblp-quad;Q0014;FACT_BASED
+42;Which publications did Kim, Junmo write?;dblp-quad;Q0071;FACT_BASED
+43;What are the papers written by the person Daniel Neamati?;dblp-quad;Q0004;FACT_BASED
+44;List the venues in which Susan Hohenberger published papers in the last 7 years and the titles of these papers.;dblp-quad;Q0235;MULTI_INTENT
+45;With which other authors has Michal Haindl co-authored papers and where are they affiliated?;dblp-quad;Q0233;MULTI_INTENT
+46;Name the co-authors of Heinz Lothar Grob in the last 9 years and where are they affiliated?;dblp-quad;Q0272;MULTI_INTENT
+47;List the co-authors of Eduardo J. Molinos and where are they affiliated.;dblp-quad;Q0291;MULTI_INTENT
+48;Which publications did Lysyanskaya, A. author and in which year?;dblp-quad;Q0278;MULTI_INTENT
+49;List the co-authors of Aguilera, Marcos K. and where are they affiliated.;dblp-quad;Q0219;MULTI_INTENT
+50;Which publications did Qiubin Gao author and in which year?;dblp-quad;Q0241;MULTI_INTENT
+51;In which venues did Carla Ferreira publish papers in the last three years and what are the titles of these papers?;dblp-quad;Q0213;MULTI_INTENT
+52;Mention the papers published by Caleb Ziems and in which year.;dblp-quad;Q0239;MULTI_INTENT
+53;Which publications did Gänsler, T. author and in which year?;dblp-quad;Q0210;MULTI_INTENT
+54;Mention the co-authors of Chang Yun Park.;dblp-quad;Q0162;FACT_BASED
+55;What are the venues in which Kyungsook Kim published?;dblp-quad;Q0192;FACT_BASED
+56;Which venues has Asia J. Biega published in?;dblp-quad;Q0120;FACT_BASED
+57;What research papers did Eric J. Pauwels publish with the author affiliated to Centrum Wiskunde & Informatica?;dblp-quad;Q0172;FACT_BASED
+58;List the papers published by Mohsen Vatani in the last three years.;dblp-quad;Q0141;FACT_BASED
+59;With which other authors has the author Cesar Renteria written papers?;dblp-quad;Q0131;FACT_BASED
+60;Which venues has Jens Christoffer Skogen published in?;dblp-quad;Q0159;FACT_BASED
+61;What are the venues in which Scott A. DeLoach published?;dblp-quad;Q0160;FACT_BASED
+62;In the last 7 years, which papers did Hiroki Nishiyama publish?;dblp-quad;Q0190;FACT_BASED
+63;Mention the co-authors of Timo Aila.;dblp-quad;Q0187;FACT_BASED
+64;What are the primary affiliations of Ling Guan and He, Y.?;dblp-quad;Q0643;UNION
+65;Marco D. Santambrogio and Durelli, G. have which primary affiliations?;dblp-quad;Q0661;UNION
+66;Joaquim P. and David Moxey have which primary affiliations?;dblp-quad;Q0659;UNION
+67;What are the primary affiliations of Giota Stratou and Morency, L.?;dblp-quad;Q0605;UNION
+68;Joseph L. Austerweil and Zemla, J. C. published which papers?;dblp-quad;Q0644;UNION
+69;List all the papers that Moore, M. and Castillo, Oscar published.;dblp-quad;Q0687;UNION
+70;List all the papers that Félix Belzunce and Carolina Martínez-Riquelme published.;dblp-quad;Q0641;UNION
+71;Antonella Molinaro and Raschellà, A. published which papers?;dblp-quad;Q0620;UNION
+72;What are all the papers that Mehrdad Saif and Roozbeh Razavi-Far published?;dblp-quad;Q0648;UNION
+73;What are all the papers that Haridimos T. Vergos and Blanas, George published?;dblp-quad;Q0628;UNION
+74;Report the most frequent co-author of Axel Zingsem and how many papers do they have together?;dblp-quad;Q0922;SUPERLATIVE+COMPARATIVE
+75;Report the most frequent co-author of M. Schreuder and how many papers do they have together?;dblp-quad;Q0926;SUPERLATIVE+COMPARATIVE
+76;Who is the most frequent co-author of Chellappa, Rama and how many publications do they have together?;dblp-quad;Q0904;SUPERLATIVE+COMPARATIVE
+77;Report the most frequent co-author of Mitra, Aritra and how many papers do they have together?;dblp-quad;Q0914;SUPERLATIVE+COMPARATIVE
+78;Ivan Frasure published the most papers in which venue and how many?;dblp-quad;Q0982;SUPERLATIVE+COMPARATIVE
+79;Report the venue in which Sidi, Moshe published the most papers.;dblp-quad;Q0970;SUPERLATIVE+COMPARATIVE
+80;Who is the most common co-author of Lohoff, Laura and how many papers do they have together?;dblp-quad;Q0945;SUPERLATIVE+COMPARATIVE
+81;In which venue did Wenshan Song publish the most publications and how many?;dblp-quad;Q0936;SUPERLATIVE+COMPARATIVE
+82;In which venue did Bo Yang publish the most publications and how many?;dblp-quad;Q0967;SUPERLATIVE+COMPARATIVE
+83;Who is the most common co-author of Keze Wang and how many papers do they have together?;dblp-quad;Q0917;SUPERLATIVE+COMPARATIVE
