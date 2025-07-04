@@ -2,8 +2,8 @@
 
 ![](img/analyticsgpt_sysdiag_no_examples.png)
 
-This repository contains the template code and prompts for the paper *"AnalyticsGPT: A Multi-Agent LLM Workflow for Scientometric Question
-Answering,"* an ACL 2025 Industry Track submission. 
+This repository contains the template code and prompts for the paper *"AnalyticsGPT: An LLM Workflow for Scientometric Question
+Answering,"* an EMNLP 2025 Industry Track submission. 
 
 The code has been stripped of implementation-specific code relating to company intellectual property, e.g. specific tool parameters and API endpoints.
 
