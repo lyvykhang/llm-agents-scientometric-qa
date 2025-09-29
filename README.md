@@ -3,7 +3,7 @@
 ![](img/analyticsgpt_sysdiag_no_examples.png)
 
 This repository contains the template code and prompts for the paper *"AnalyticsGPT: An LLM Workflow for Scientometric Question
-Answering,"* an EMNLP 2025 Industry Track submission. 
+Answering."*
 
 The code has been stripped of implementation-specific code relating to company intellectual property, e.g. specific tool parameters and API endpoints.
 
@@ -15,6 +15,7 @@ The code has been stripped of implementation-specific code relating to company i
 ├── config
 │   └── prompts
 │       ├── action.py
+│       ├── eval.py
 │       ├── high_level_planning.py
 │       ├── naive.py
 │       ├── planning.py
@@ -25,6 +26,7 @@ The code has been stripped of implementation-specific code relating to company i
 │   └── raw
 ├── graphql.py
 ├── llm_client.py
+├── llm_jury.py
 ├── logger
 │   ├── MyThread.py
 │   └── logger.py
@@ -47,7 +49,7 @@ After installing the necessary packages, configure the LLM client in `llm_client
 Concerning the RAG interface, there are 4 components to consider:
 - The entity resolution component in `graphql.py`. While our implementation used a proprietary GraphQL layer aggregating numerous entity vector search endpoints, any entity resolution method (name -> ID and v.v.) can work in principle.
 - The implementations of the database querying tools in `tools_api.py`.
-- The functional description of said tools as provided to the Planning Agent for plan generation in `config/prompts/planning.py`.
+- The functional description of said tools as provided to the Planning Agent for plan generation in `config/prompts/planning.py` and `config/prompts/high_level_planning.py`.
 - The functional descriptions of said tools in `config/prompts/tools.py` specified as Pydantic models, for LLM tool-calling purposes.
 
 > [!NOTE]
@@ -62,7 +64,7 @@ Most major aspects of the workflow can be customized to your own concrete implem
 - Similarly, the pipeline, i.e. agent execution and intermediate steps, in `pipeline.py` using the `BasePipeline` abstract class can be updated.
 
 > [!TIP]
-> For ease of integration, if adjusting the planning agent prompt, ensure the output format of each step still corresponds to `agents.py/PlanStep`.
+> For ease of integration, if adjusting the planning agent prompt, ensure the output format of each step still corresponds to the class `agents.py/PlanStep`.
 
 ## Dataset
 

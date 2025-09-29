@@ -136,12 +136,12 @@ class BaseAgentV3(ABC):
     ):
         if tools is not None:
             llm_client = yield_llm_client(
-                azure_deployment=model, temperature=0
+                deployment_name=model, temperature=0
             ).bind_tools(tools=tools, tool_choice="auto")
             return llm_client.invoke(messages).tool_calls
         else:
             llm_client = yield_llm_client(
-                azure_deployment=model, temperature=0, max_tokens=max_tokens
+                deployment_name=model, temperature=0, max_tokens=max_tokens
             )
             if response_format:
                 llm_client = llm_client.bind(response_format=response_format)
@@ -156,7 +156,7 @@ class HighLevelPlanningAgentV3(BaseAgentV3):
     def __init__(self, query: str):
         super().__init__(agent=Agent.HIGH_LEVEL_PLANNING_AGENT)
         self.query = query
-        self.model_name = deploymentNames.GPT_35.value
+        self.model_name = deploymentNames.GPT_4O_MINI.value
 
     def execute(self):
         prompt = self.get_prompt()
