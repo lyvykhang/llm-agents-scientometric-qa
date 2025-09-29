@@ -66,7 +66,7 @@ class OpenAIJuror(LLMJuror):
     def __init__(self, juror_id: str, deployment_name: str):
         super().__init__(juror_id, deployment_name)
         self.client = yield_llm_client(
-            deployment_name=deployment_name, aws_profile_name="lyk"
+            deployment_name=deployment_name, aws_profile_name=""
         ).bind(response_format={"type": "json_object"})
 
     async def annotate(self, task: AnnotationTask) -> List[JurorVote]:
